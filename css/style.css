@@ -1,0 +1,12 @@
+:root {
+  --main-title-color: #212121;
+  --seconf-title-color: #ffffff;
+  --text-color: #757575;
+  --first-button-color: #212121;
+  --seconf-button-color: #757575;
+  --third-button-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
