@@ -20,13 +20,13 @@ body {
   text-decoration: none;
 }
 
-.logo {
+.logo-web {
   color: var(--accent-color);
 }
 
 /*-------------HEADER-------------*/
 
-.header-link {
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,7 +34,7 @@ body {
   color: var(--first-button-color);
 }
 
-.header-logo {
+.logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -43,26 +43,26 @@ body {
   color: #000000;
 }
 
-.header-contact {
+.contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--seconf-button-color);
 }
-.header-contact:hover,
-.header-contact:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
-.header-link:hover,
-.header-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
 /*-------------HERO-------------*/
 
-.hero-btn {
+.primary button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -120,7 +120,7 @@ body {
 /*-------------ACTION-------------*/
 
 /*-------------COMMAND-------------*/
-.command-first-title {
+.section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -129,7 +129,7 @@ body {
   color: var(--main-title-color);
 }
 
-.command-second-title {
+.teammate-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -138,7 +138,7 @@ body {
   color: var(--main-title-color);
 }
 
-.command-paragraph {
+.teammate-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -149,12 +149,17 @@ body {
 
 /*-------------FOOTER-------------*/
 
-.footer-link:hover,
-.footer-link:focus {
+.map-link:hover,
+.map-link:focus {
   color: var(--accent-color);
 }
 
-.footer-logo {
+.second-contact-link:hover,
+.second-contact-link:focus {
+  color: var(--accent-color);
+}
+
+.white-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -169,7 +174,7 @@ body {
 
 /*-------------PORTFOLIO-------------*/
 
-.filter-btn {
+.secondary-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -179,8 +184,8 @@ body {
   color: var(--first-button-color);
 }
 
-.filter-btn:focus,
-.filter-btn:hover {
+.secondary-button:focus,
+.secondary-button:hover {
   color: var(--accent-color);
 }
 
