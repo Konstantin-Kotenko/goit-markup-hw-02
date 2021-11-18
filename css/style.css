@@ -27,10 +27,6 @@ body {
 
 /*-------------HEADER-------------*/
 
-.current:active {
-  color: var(--accent-color);
-}
-
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -65,7 +61,7 @@ body {
   color: var(--accent-color);
 }
 
-.current:active {
+.current {
   color: var(--accent-color);
 }
 
